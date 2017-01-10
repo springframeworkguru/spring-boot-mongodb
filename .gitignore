@@ -1,12 +1,43 @@
+# Compiled source #
+###################
+*.com
 *.class
+*.dll
+*.exe
+*.o
+*.so
 
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
+# Packages #
+############
+# it's better to unpack these files and commit the raw source
+# git has its own built in compression methods
+*.7z
+*.dmg
+*.gz
+*.iso
+*.rar
+*.tar
+*.zip
 
-# Package Files #
-*.jar
-*.war
-*.ear
+# Logs and databases #
+######################
+*.log
+*.sqlite
 
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
-hs_err_pid*
+# OS generated files #
+######################
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+.project
+.classpath
+.idea
+.mvn
+*.iml
+atlassian-ide-plugin.xml
+target
